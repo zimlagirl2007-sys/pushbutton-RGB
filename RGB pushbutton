@@ -1,4 +1,6 @@
-int pushButton = 10 ;
+// This program is meant to have thr RGB turn white when the push button isn't pressed, then it'll turn off once the push button is pressed
+//This is a digital input program controlling a digital output program
+int pushButton = 10 ; // sets the pushButton as pin 10
 void setup() { 
 
   // initialize serial communication at 9600 bits per second: 
